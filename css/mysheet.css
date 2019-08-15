@@ -28,7 +28,7 @@ body {
 }
 #namefont{
 	text-align: center;
-	font-size: 36px;
+	/*font-size: 36px;*/
 	color: #111;
 	line-height:0;
 }
@@ -39,7 +39,7 @@ body {
 }
 .column{
 	padding: 22px;
-	font-size: 24px;	
+	/*font-size: 24px;	*/
 }
 	
 ul{
@@ -58,10 +58,10 @@ ul li, li a{
 }
 /* Style for menu links */
 li a{
-	font-size:20px;
+	/*font-size:20px;*/
 	display: block;
 	min-width: 150px;
-	height: auto;
+	height: 50px;
 	text-align: center;
 	line-height: 50px;
 	color: #fff;
@@ -103,7 +103,7 @@ input[type=checkbox]:checked ~#menu{
 }
 
 .show-menu{
-	font-size: 22px;
+	/*font-size: 22px;*/
 	text-decoration: none;
 	color: #fff;
 	background: #19c589;
@@ -114,17 +114,17 @@ input[type=checkbox]:checked ~#menu{
 }
 	#footerfont{
 		text-align:center;
-		font-size:22px;
+		/*font-size:22px;*/
 		color: #111;
 	}
 	#namefont{
 		text-align: center;
-		font-size: 45px;
+		/*font-size: 45px;*/
 		color: #111;
 	}
 	#blurbfont{
 		text-align: center;
-		font-size: 22px;
+		/*font-size: 22px;*/
 		color: beige;
 	}
 	#ulinitial{
@@ -178,7 +178,7 @@ input[type=checkbox]:checked ~#menu{
 `	}
 
 	.column{
-		font-size: 24px;
+		/*font-size: 22px;*/
 		padding:25px;
 		width: 70%;
 		margin-right: auto;
