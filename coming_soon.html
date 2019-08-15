@@ -8,29 +8,31 @@
 	</HEAD>
 	<BODY>
 		<!-- ***** Header Section ****** -->
-		<div class="header">	
-					<div class="stickymenu" onclick="openNav()">&#8801; </div>
-					<div class= "picbox"><img class="profilepic" src="./images/myhead1.jpg"></div>
-					<div class= "textbox namefont">Michael Hutt </div>
-					<div class="textbox blurbfont"> Currently seeking employment opportunities as junior level software engineer/developer </div>
+		<div class="header">
+			<label  for="show-menu" class = "show-menu"> Show Menu </label>
+			<input type="checkbox" id="show-menu" role="button">
+			<UL id="menu">
+				<LI><a href="./index.html"> Home </a></LI>
+				<LI><a href="./coming_soon.html"> Data Structures </a></LI>
+				<LI><a href="./coming_soon.html"> Algorithms</a></LI>
+				<LI><a href="./coming_soon.html"> About me</a></LI>
+			</UL>
+			<img class="profilepic" src="./images/myhead1.jpg">
+			<div class= "textbox"><P id="namefont"> Michael Hutt </P> 
+								<P id="blurbfont">  Currently seeking employment opportunities as junior level software engineer/developer </P>
+			</div>
 		</div>
 
-		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
-			<a href="./index.html"> Home </a>
-			<a href="./coming_soon.html"> Data Structures </a>
-			<a href="./coming_soon.html"> Basic Algorithms </a>
-		</div>	
 		<div class="column">
-			<H3> Coming soon... </H3>
+			<H3> Coming soon </H3>
 		</div>
 		<div class = "footer">
-			<div class="textbox blurbfont">&#169;2019 Michael Hutt </div>
-			<div class="textbox blurbfont"><a href="mailto:michael.hutt.ee@gmail.com"> michael.hutt.ee@gmail.com </a> </div>
+			<P id="footerfont">&#169;2019 Michael Hutt <br>
+			<a href="mailto:michael.hutt.ee@gmail.com"> michael.hutt.ee@gmail.com </a> 
 		</div>
 
 
-	</BODY>
+			</BODY>
 </HTML>
 
 	
