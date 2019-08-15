@@ -5,7 +5,7 @@ body {
 .header{
 	padding: 40px;
 	background-color: #696969; /* dimgrey */
-	font-size: 24px;
+	font-size: 100%;
 }
 .footer{
 	padding: 40px;	
@@ -32,19 +32,7 @@ body {
 .textbox {
 	width:auto;
 }
-#namefont{
-	text-align: center;
-	font-size: 1.2rem
-	color: #111;
-	line-height:0;
-}
-#blurbfont{
-	text-align: center;
-	font-size: 1rem;
-	color: beige;
-}
 
-	
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -75,8 +63,7 @@ li a{
 
 /* Hover over states */
 li:hover a{
-	background: #19c589;
-	
+	background: #19c589;	
 }
 /* submenu on hover over main menu */
 li:hover ul li a{
@@ -115,42 +102,36 @@ input[type=checkbox]:checked ~#menu{
 	margin-bottom: 10px;
 	display: block;
 }
-	#footerfont{
-		text-align:center;
-		/*font-size:22px;*/
-		color: #111;
-	}
-	#namefont{
-		text-align: center;
-		/*font-size: 45px;*/
-		color: #111;
-	}
-	#blurbfont{
-		text-align: center;
-		/*font-size: 22px;*/
-		color: beige;
-	}
-	#ulinitial{
-		list-style: disc outside none;
-		position: static;
-		display: block;
-	}
-	#liinitial{
-		float: none;
-		display: list-item;
-		margin-left: 50px;
-	}
-	#headinglinespace{
-		line-height:0;
-	}
-	
-	ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: static;
-	display: none;
+#footerfont{
+	text-align:center;
+	/*font-size:22px;*/
+	color: #111;
 }
+#blurbfont{
+	text-align: center;
+	/*font-size: 22px;*/
+	color: beige;
+}
+#namefont{
+	text-align: center;
+	font-size: 1.2rem
+	color: #111;
+	line-height:0;
+}
+#ulinitial{
+	list-style: disc outside none;
+	position: static;
+	display: block;
+}
+#liinitial{
+	float: none;
+	display: list-item;
+	margin-left: 50px;
+}
+#headinglinespace{
+	line-height:1;
+}
+
 /****************************************************/
 /* Layout for laptop/desktop                        */
 /****************************************************/
@@ -161,8 +142,15 @@ input[type=checkbox]:checked ~#menu{
 		padding-top: 5px;
 		padding-left: 40px;
 		padding-bottom:120px;
+		font-size: 100%;
 	}
-
+	.column{
+		font-size:100%;
+		padding:25px;
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
 	.profilepic{
 		display: initial;
 		float: left;
@@ -180,13 +168,7 @@ input[type=checkbox]:checked ~#menu{
 		left: 20px;
 `	}
 
-	.column{
-		/*font-size: 22px;*/
-		padding:25px;
-		width: 70%;
-		margin-right: auto;
-		margin-left: auto;
-	}
+
 	#namefont{
 		text-align: left;
 	}
