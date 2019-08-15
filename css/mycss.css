@@ -1,0 +1,15 @@
+body {
+	background-color: darkgrey; 
+}
+.header{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-bottom:120px;
+	background-color: #696969; /* dimgrey */
+}
+.footer{
+	text-align: center;
+	padding: 20px;
+	background-color: #696969; /* dimgrey */
+	color: #111;
+}

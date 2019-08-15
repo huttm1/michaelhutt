@@ -1,0 +1,268 @@
+
+body {
+	background-color: darkgrey; 
+}
+.header{
+	padding: 40px;
+	background-color: #696969; /* dimgrey */
+}
+.footer{
+	padding: 40px;	
+	background-color: #696969; /* dimgrey */
+	color: #111;
+}
+.footer a{
+	color: black;
+	text-decoration: none;
+}
+.profilepic{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 50%;
+		width:30%;
+		height: auto;
+}
+.textbox {
+	width:100%;
+}
+#namefont{
+	text-align: center;
+	font-size: 36px;
+	color: #111;
+	line-height:0;
+}
+#blurbfont{
+	text-align: center;
+	font-size: 22px;
+	color: beige;
+}
+.column{
+	padding: 22px;
+	font-size: 24px;	
+}
+	
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: static;
+	display: none;
+}
+li{
+	display: inline-block;
+	margin-bottom: 1px;
+}
+ul li, li a{
+	width: 100%;
+}
+/* Style for menu links */
+li a{
+	display: block;
+	min-width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: darkgrey;
+	text-decoration: none;
+	
+}
+
+/* Hover over states */
+li:hover a{
+	background: #19c589;
+	
+}
+/* submenu on hover over main menu */
+li:hover ul li a{
+	background: #f3f3f3;
+	color: #2f3036;
+	height:40px;
+	line-height:40px;
+}
+li:hover ul li a:hover{
+	background:#19c;
+	color: white;
+}
+/* Hide dropdown links until needed */
+li ul{
+	display:none;
+}
+li ul li a{
+	width:auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+input[type=checkbox]{
+	display:none;
+}
+input[type=checkbox]:checked ~#menu{
+	display: block;
+}
+
+.show-menu{
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+	#footerfont{
+		text-align:center;
+		font-size:22px;
+		color: #111;
+	}
+	#namefont{
+		text-align: center;
+		font-size: 45px;
+		color: #111;
+	}
+	#blurbfont{
+		text-align: center;
+		font-size: 22px;
+		color: beige;
+	}
+	#ulinitial{
+		list-style: disc outside none;
+		position: static;
+	}
+	#liinitial{
+		float: none;
+		display: list-item;
+		margin-left: 50px;
+		
+	}
+	#headinglinespace{
+		line-height:0;
+	}
+	
+	ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: static;
+	display: none;
+}
+/****************************************************/
+/* Layout for laptop/desktop                        */
+/****************************************************/
+
+@media only screen and (min-width:600px){
+
+	.header{
+		padding-top: 5px;
+		padding-left: 40px;
+		padding-bottom:120px;
+	}
+
+	.profilepic{
+		display: initial;
+		float: left;
+		position: relative;
+		top: 70px;
+		border-radius: 90%;
+		width:10%;
+		height: auto;
+	}
+
+	.textbox {
+		width:60%;
+		position: relative;
+		top: 70px;
+		left: 20px;
+`	}
+
+	.column{
+		font-size: 24px;
+		padding:25px;
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#namefont{
+		text-align: left;
+	}
+	#blurbfont{
+		text-align: left;
+	}
+	ul{
+		position: absolute;
+		display: initial;
+	}
+
+	/* Turns vertical list into horizontal */
+	li{
+		float: left;
+		margin-right:1px;
+		margin-top: 1px;
+	}
+	
+	ul li, li a{
+		width: auto;
+	}
+
+	/* subnav */
+	li li{
+		display: block;
+		float: none;
+	}
+
+	/* Style for menu links */
+	li a{
+		display: block;
+		min-width: 150px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		color: #fff;
+		background: darkgrey;
+		text-decoration: none;
+		
+	}
+	/* Hover over states */
+	li:hover a{
+		background: #19c589;
+		
+	}
+	/* submenu on hover over main menu */
+	li:hover ul li a{
+		background: #f3f3f3;
+		color: #2f3036;
+		height:40px;
+		line-height:40px;
+	}
+	li:hover ul li a:hover{
+		background:#19c;
+		color: white;
+	}
+	/* Hide dropdown links until needed */
+	li ul{
+		display:none;
+	} 
+	li ul li{
+		display:block;
+		float: none;
+	}
+
+	li ul li a{
+		width:auto;
+		min-width: 100px;
+		padding: 0 20px;
+	}
+
+	input[type=checkbox]{
+		display:none;
+	}
+	.show-menu{
+		text-decoration: none;
+		color: #fff;
+		background: #19c589;
+		text-align: center;
+		padding: 10px 0;
+		display: none;
+	}
+}
+	
