@@ -5,6 +5,7 @@ body {
 .header{
 	padding: 40px;
 	background-color: #696969; /* dimgrey */
+	font-size: 24px;
 }
 .footer{
 	padding: 40px;	
@@ -50,7 +51,6 @@ ul{
 	padding: 0;
 	position: static;
 	display: none;
-	font-size:24px;
 }
 li{
 	display: inline-block;
