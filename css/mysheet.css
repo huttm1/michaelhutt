@@ -5,11 +5,17 @@ body {
 .header{
 	padding: 40px;
 	background-color: #696969; /* dimgrey */
+	font-size:100%;
 }
 .footer{
 	padding: 40px;	
 	background-color: #696969; /* dimgrey */
 	color: #111;
+	font-size:100%;
+}
+.column{
+	padding: 22px;
+	font-size: 100%;
 }
 .footer a{
 	color: black;
@@ -37,10 +43,7 @@ body {
 	font-size: 22px;
 	color: beige;
 }
-.column{
-	padding: 22px;
-	/*font-size: 24px;	*/
-}
+
 	
 ul{
 	list-style-type: none;
