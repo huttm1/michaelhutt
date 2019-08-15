@@ -64,7 +64,7 @@ li a{
 	text-align: center;
 	line-height: 50px;
 	color: #fff;
-	background: darkgrey;
+	background: darkslategrey;
 	text-decoration: none;
 	
 }
@@ -128,12 +128,12 @@ input[type=checkbox]:checked ~#menu{
 	#ulinitial{
 		list-style: disc outside none;
 		position: static;
+		display: block;
 	}
 	#liinitial{
 		float: none;
 		display: list-item;
 		margin-left: 50px;
-		
 	}
 	#headinglinespace{
 		line-height:0;
@@ -210,18 +210,8 @@ input[type=checkbox]:checked ~#menu{
 		float: none;
 	}
 
-	/* Style for menu links */
-	li a{
-		display: block;
-		min-width: 150px;
-		height: 50px;
-		text-align: center;
-		line-height: 50px;
-		color: #fff;
-		background: darkgrey;
-		text-decoration: none;
-		
-	}
+
+
 	/* Hover over states */
 	li:hover a{
 		background: #19c589;
