@@ -143,10 +143,10 @@ input[type=checkbox]:checked ~#menu{
 	.header{
 		padding-top: 5px;
 		padding-left: 40px;
-		padding-bottom:150px;
+		padding-bottom:100px;
 	}
 	.column{
-		font-size:175%;
+		font-size:160%;
 		padding:25px;
 		width: 70%;
 		margin-right: auto;
