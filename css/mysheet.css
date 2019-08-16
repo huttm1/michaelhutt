@@ -3,20 +3,22 @@ body {
 	background-color: darkgrey; 
 }
 .header{
-	padding-top: 40px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: #696969; /* dimgrey */
-	font-size: 100%
+	font-size: 100%;
 }
 .footer{
 	padding: 20px;	
 	background-color: #696969; /* dimgrey */
 	color: #111;
-	font-size:100%
+	font-size:100%;
 }
 .column{
 	padding: 22px;
-	font-size: 175%
+	font-size: 100%;
 }
 .footer a{
 	color: black;
@@ -141,11 +143,10 @@ input[type=checkbox]:checked ~#menu{
 	.header{
 		padding-top: 5px;
 		padding-left: 40px;
-		padding-bottom:180px;
-		font-size: 100%;
+		padding-bottom:150px;
 	}
 	.column{
-		font-size:100%;
+		font-size:175%;
 		padding:25px;
 		width: 70%;
 		margin-right: auto;
