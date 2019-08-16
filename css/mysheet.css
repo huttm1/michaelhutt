@@ -5,17 +5,17 @@ body {
 .header{
 	padding: 40px;
 	background-color: #696969; /* dimgrey */
-	font-size: 100%;
+	font-size: 100%
 }
 .footer{
 	padding: 40px;	
 	background-color: #696969; /* dimgrey */
 	color: #111;
-	font-size:100%;
+	font-size:100%
 }
 .column{
 	padding: 22px;
-	font-size: 100%;
+	font-size: 100%
 }
 .footer a{
 	color: black;
@@ -32,7 +32,6 @@ body {
 .textbox {
 	width:auto;
 }
-
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -104,7 +103,7 @@ input[type=checkbox]:checked ~#menu{
 }
 #footerfont{
 	text-align:center;
-	font-size: 1.5rem;	
+	font-size: 1rem;	
 	color: #111;
 }
 #blurbfont{
@@ -114,7 +113,7 @@ input[type=checkbox]:checked ~#menu{
 }
 #namefont{
 	text-align: center;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	color: #111;
 	line-height:0;
 }
@@ -167,8 +166,6 @@ input[type=checkbox]:checked ~#menu{
 		top: 70px;
 		left: 20px;
 `	}
-
-
 	#namefont{
 		text-align: left;
 	}
@@ -190,55 +187,20 @@ input[type=checkbox]:checked ~#menu{
 	ul li, li a{
 		width: auto;
 	}
-
 	/* subnav */
 	li li{
 		display: block;
 		float: none;
 	}
-
-
-
-	/* Hover over states */
-	li:hover a{
-		background: #19c589;
-		
-	}
-	/* submenu on hover over main menu */
-	li:hover ul li a{
-		background: #f3f3f3;
-		color: #2f3036;
-		height:40px;
-		line-height:40px;
-	}
-	li:hover ul li a:hover{
-		background:#19c;
-		color: white;
-	}
-	/* Hide dropdown links until needed */
-	li ul{
-		display:none;
-	} 
 	li ul li{
 		display:block;
 		float: none;
-	}
-
-	li ul li a{
-		width:auto;
-		min-width: 100px;
-		padding: 0 20px;
 	}
 
 	input[type=checkbox]{
 		display:none;
 	}
 	.show-menu{
-		text-decoration: none;
-		color: #fff;
-		background: #19c589;
-		text-align: center;
-		padding: 10px 0;
 		display: none;
 	}
 }
