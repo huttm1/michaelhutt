@@ -104,12 +104,12 @@ input[type=checkbox]:checked ~#menu{
 }
 #footerfont{
 	text-align:center;
-	/*font-size:22px;*/
+	font-size: 1.3rem;	
 	color: #111;
 }
 #blurbfont{
 	text-align: center;
-	/*font-size: 22px;*/
+	font-size: 1rem;
 	color: beige;
 }
 #namefont{
@@ -126,7 +126,7 @@ input[type=checkbox]:checked ~#menu{
 #liinitial{
 	float: none;
 	display: list-item;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 #headinglinespace{
 	line-height:1;
