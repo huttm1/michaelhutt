@@ -8,7 +8,7 @@ body {
 	font-size: 100%
 }
 .footer{
-	padding: 40px;	
+	padding: 20px;	
 	background-color: #696969; /* dimgrey */
 	color: #111;
 	font-size:100%
@@ -202,6 +202,21 @@ input[type=checkbox]:checked ~#menu{
 	}
 	.show-menu{
 		display: none;
+	}
+	li a{
+		font-size:2rem;	
+	}
+	#footerfont{
+		font-size: 2rem;	
+	}
+	#blurbfont{
+		font-size: 2rem;
+	}
+	#namefont{
+		font-size: 3rem;
+	}
+	#headinglinespace{
+		line-height:0;
 	}
 }
 	
