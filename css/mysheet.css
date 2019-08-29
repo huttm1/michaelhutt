@@ -67,26 +67,31 @@ li a{
 li:hover a{
 	background: #19c589;	
 }
-/* submenu on hover over main menu */
+
+/* submenu on hover over main menu  */
 li:hover ul li a{
 	background: #f3f3f3;
 	color: #2f3036;
 	height:40px;
 	line-height:40px;
-	z-index: 1000;
 }
 li:hover ul li a:hover{
 	background:#19c;
 	color: white;
 }
-/* Hide dropdown links until needed */
-li ul{
+
+/* Hide dropdown links until needed  */
+li ul {
 	display:none;
+	z-index:10;
 }
+
+
 li ul li a{
 	width:auto;
 	min-width: 100px;
 	padding: 0 20px;
+
 }
 input[type=checkbox]{
 	display:none;
@@ -169,12 +174,7 @@ input[type=checkbox]:checked ~#menu{
 		top: 70px;
 		left: 20px;
 `	}
-	#namefont{
-		text-align: left;
-	}
-	#blurbfont{
-		text-align: left;
-	}
+
 	ul{
 		position: absolute;
 		display: initial;
@@ -214,12 +214,16 @@ input[type=checkbox]:checked ~#menu{
 	}
 	#blurbfont{
 		font-size: 1.5rem;
+		text-align: left;
 	}
 	#namefont{
 		font-size: 3rem;
+		text-align: left;
 	}
 	#headinglinespace{
 		line-height:0;
 	}
+
+
 }
 	
