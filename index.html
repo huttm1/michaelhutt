@@ -14,7 +14,15 @@
 			<input type="checkbox" id="show-menu" role="button">
 			<UL id="menu">
 				<LI><a href="./index.html"> Home</a></LI>
-				<LI><a href="./coming_soon.html"> Data Structures </a></LI>
+				<!-- <LI><a href="./coming_soon.html"> Data Structures </a></LI> -->
+				
+				<LI onmouseover="openNav()" onmouseout="closeNav()"><a href="#"> Data Structures </a>
+				<UL id = "mySubmenu">
+					<LI><a href="./coming_soon.html"> Arrays</a></LI>
+					<LI><a href="./coming_soon.html"> Stacks </a></LI>
+				</UL>
+			</LI>
+				
 				<LI><a href="./coming_soon.html"> Algorithms</a></LI>
 				<LI><a href="./coming_soon.html"> About me</a></LI>
 			</UL>
@@ -38,8 +46,10 @@
 			<H4 id="headinglinespace"> This Website </H4>
 			<ul id="ulinitial">
 				<li id="liinitial">Set up and configured Azure Linux virtual machine to host this website </li>
-				<li id="liinitial">Created html and css files from scratch </li>
 				<li id="liinitial">Edited approriate DNS files so that custom domain name would point to virtual machine </li>
+				<li id="liinitial">Created html, css, amd javascript files from scratch </li>
+				<li id="liinitial">Navigated web site to github  as the free trial with Azure ran it's course </li>
+
 			</ul>
 		</div>
 		<div class = "footer">
