@@ -1,10 +1,12 @@
 
-function closeNav() {
-	
+function checkNav() {
+	if (document.getElementById("mySubmenu").style.display=="none"){
+		document.getElementById("mySubmenu").style.display= "block";
+	}
+	else if (document.getElementById("mySubmenu").style.display=="block"){
 	document.getElementById("mySubmenu").style.display= "none";
-}
-
-function openNav() {
-	
-	document.getElementById("mySubmenu").style.display= "block";
+	}
+	else{
+		document.getElementById("mySubmenu").style.display= "block";
+	}
 }
