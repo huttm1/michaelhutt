@@ -64,18 +64,18 @@ li a{
 }
 
 /* Hover over states */
-li:hover a{
+.no-touch li:hover a{
 	background: #19c589;	
 }
 
 /* submenu on hover over main menu  */
-li:hover ul li a{
+.no-touch li:hover ul li a{
 	background: #f3f3f3;
 	color: #2f3036;
 	height:40px;
 	line-height:40px;
 }
-li:hover ul li a:hover{
+.no-touch li:hover ul li a:hover{
 	background:#19c;
 	color: white;
 }
@@ -223,6 +223,7 @@ input[type=checkbox]:checked ~#menu{
 	#headinglinespace{
 		line-height:0;
 	}
+
 
 
 }
